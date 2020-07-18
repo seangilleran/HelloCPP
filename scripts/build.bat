@@ -1,7 +1,7 @@
 ::@echo off
 
 set outputExe=HelloCPP
-set files=..\code\main.cpp
+set files=..\source\main.cpp
 set libs=
 
 set buildDir=%~dp0..\build
