@@ -2,12 +2,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run",
+            "name": "(Windows) Launch",
             "type": "cppvsdbg",
             "request": "launch",
-            "internalConsoleOptions": "openOnSessionStart",
+            "console": "externalTerminal",
             "stopAtEntry": false,
-            "externalConsole": false,
             "environment": [],
             "program": "${workspaceFolder}\\build\\${workspaceFolderBasename}.exe",
             "args": [],
