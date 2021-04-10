@@ -1,4 +1,4 @@
-::@echo off
+@echo off
 
 set outputExe=HelloCPP
 set files=..\source\main.cpp
@@ -16,7 +16,7 @@ set linkFlags=/link /SUBSYSTEM:CONSOLE
 
 cl %compileFlags% %files% %libs% %linkFlags%
 
-:: Copy dependencies...
-:: xcopy /y ..\external\{}.dll .
+rem Copy dependencies...
+rem xcopy /y ..\external\{}.dll .
 
 popd
