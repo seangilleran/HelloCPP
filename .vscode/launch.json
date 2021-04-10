@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(Windows) Launch",
+            "name": "Launch",
             "type": "cppvsdbg",
             "request": "launch",
             "console": "externalTerminal",
@@ -10,7 +10,8 @@
             "environment": [],
             "program": "${workspaceFolder}\\build\\${workspaceFolderBasename}.exe",
             "args": [],
-            "cwd": "${workspaceFolder}\\content"
+            "cwd": "${workspaceFolder}\\content",
+            "preLaunchTask": "Build (build.bat)"
         }
     ]
 }
