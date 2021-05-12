@@ -11,7 +11,7 @@
             "command": "cmd",
             "args": [
                 "/c",
-                "${workspaceFolder}\\scripts\\clean.bat & ${workspaceFolder}\\scripts\\shell.bat & ${workspaceFolder}\\scripts\\build.bat"
+                "${workspaceFolder}/scripts/clean.bat & ${workspaceFolder}/scripts/shell.bat & ${workspaceFolder}/scripts/build.bat"
             ],
             "presentation": {
                 "reveal": "silent"
@@ -21,7 +21,7 @@
         {
             "label": "Clean (clean.bat)",
             "type": "shell",
-            "command": "${workspaceFolder}\\scripts\\clean.bat",
+            "command": "${workspaceFolder}/scripts/clean.bat",
             "presentation": {
                 "reveal": "silent"
             },

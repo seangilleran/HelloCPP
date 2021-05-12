@@ -11,7 +11,7 @@ pushd %buildDir%
 set objDir=.\obj\
 if not exist %objDir% mkdir %objDir%
 
-set compileFlags=/Zi /FC /EHsc /std:c++17 /Fo%objDir% /Fe%outputExe%
+set compileFlags=/Zi /FC /EHsc /std:c++latest /Fo%objDir% /Fe%outputExe%
 set linkFlags=/link /SUBSYSTEM:CONSOLE
 
 cl %compileFlags% %files% %libs% %linkFlags%

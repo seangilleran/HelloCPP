@@ -5,13 +5,11 @@
             "name": "Launch",
             "type": "cppvsdbg",
             "request": "launch",
-            "console": "externalTerminal",
-            "stopAtEntry": false,
+            "preLaunchTask": "Build (build.bat)",
+            "cwd": "${workspaceFolder}/content",
             "environment": [],
-            "program": "${workspaceFolder}\\build\\${workspaceFolderBasename}.exe",
-            "args": [],
-            "cwd": "${workspaceFolder}\\content",
-            "preLaunchTask": "Build (build.bat)"
+            "program": "${workspaceFolder}/build/${workspaceFolderBasename}.exe",
+            "args": []
         }
     ]
 }

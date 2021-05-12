@@ -4,23 +4,21 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:\\Applications\\Visual Studio\\2019\\VC\\Tools\\MSVC\\14.28.29910\\include\\**",
-                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\**",
-                "${workspaceFolder}\\source\\**",
-                "${workspaceFolder}\\external\\**"
+                "F:/VS/2019/BuildTools/VC/Tools/MSVC/14.28.29910/include/**",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/**",
+                "${workspaceFolder}/source/**"
             ],
             "browse": {
                 "path": [
-                    "C:\\Applications\\Visual Studio\\2019\\VC\\Tools\\MSVC\\14.28.29910\\include\\**",
-                    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\**",
-                    "${workspaceFolder}\\source\\**",
-                    "${workspaceFolder}\\external\\**"
+                    "F:/VS/2019/BuildTools/VC/Tools/MSVC/14.28.29910/include/**",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/**",
+                    "${workspaceFolder}/source/**"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
             },
-            "compilerPath": "C:\\Applications\\Visual Studio\\2019\\VC\\Tools\\MSVC\\14.28.29910\\bin\\Hostx64\\x64\\cl.exe",
-            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "F:/VS/2019/BuildTools/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe",
+            "windowsSdkVersion": "10.0.18362.0",
             "intelliSenseMode": "msvc-x64",
             "cStandard": "c11",
             "cppStandard": "c++17",
